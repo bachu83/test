@@ -12,7 +12,8 @@ steps:
   - 'set'
   - 'image'
   - 'deployment/mall-account'
-  - '-n mall'
+  - '-n'
+  - 'mall'
   - 'mall-account=gcr.io/golden-manifest-237210/mall-account:$REVISION_ID'
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=asia-east1-b'

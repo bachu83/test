@@ -3,4 +3,4 @@ steps:
   args: ['install']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/golden-manifest-237210/mall-account', '.'] 
-  dir: '/mall-account
+  dir: '/mall-account'

@@ -5,5 +5,5 @@ steps:
   args: ['build', '-t', 'gcr.io/golden-manifest-237210/mall-account', '.'] 
   dir: 'mall-account'
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', '-t', 'gcr.io/golden-manifest-237210/mall-account', '.'] 
+  args: ['push', 'gcr.io/golden-manifest-237210/mall-account'] 
   dir: 'mall-account'

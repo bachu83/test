@@ -16,6 +16,4 @@ public interface AccountRepository extends PagingAndSortingRepository<Account, L
 	Account findByNameLike(String name);
 	List <Account> findByMemberType(@Param("memberType") MemberType memberType);
 	List <Account> findByMembershipLevelType(@Param("membershipLevelType") MembershipLevelType membershipLevelType);	
-	
-	
 }

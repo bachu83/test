@@ -14,7 +14,7 @@ steps:
   - 'deployment/mall-account'
   - '-n'
   - 'mall'
-  - 'mall-account=gcr.io/golden-manifest-237210/mall-account:$REVISION_ID'
+  - 'mall-account-sha256=gcr.io/golden-manifest-237210/mall-account:$REVISION_ID'
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=asia-east1-b'
   - 'CLOUDSDK_CONTAINER_CLUSTER=standard-cluster-1'
